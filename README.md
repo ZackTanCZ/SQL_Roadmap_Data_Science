@@ -50,12 +50,6 @@ In your second week, you'll learn how to summarize data for insights using aggre
 
 💡 **Tip:** When working with aggregations, start with smaller datasets to avoid performance issues and make debugging easier.
 
-💡 **Tip:** 
-
-![sqlJoins_7](https://github.com/user-attachments/assets/d81f0d90-6deb-4c6f-a111-b66b5d42cdd0)
-
-credits to [Atlassian.com](https://www.atlassian.com/data/sql/sql-join-types-explained-visually)
-
 ## Week 3: Databases & JOINs (Combining Data Sources)
 
 Understanding relational databases and mastering `JOINs` to combine tables is key for more complex analysis in Data Science & Analytics.
@@ -67,6 +61,11 @@ Understanding relational databases and mastering `JOINs` to combine tables is ke
 
 💡 **Tip:** Practice `JOINs` with different types of datasets to understand how they combine data. Try to visualize what the result will look like before running the query.
 
+💡 **Tip:** 
+
+![sqlJoins_7](https://github.com/user-attachments/assets/d81f0d90-6deb-4c6f-a111-b66b5d42cdd0)
+
+credits to [Atlassian.com](https://www.atlassian.com/data/sql/sql-join-types-explained-visually)
 
 ## Week 4: Learn Window Functions (Optional Advanced Topic)
 
