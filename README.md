@@ -27,7 +27,9 @@ Your first week is about understanding what SQL is and learning how to retrieve 
 - **Install MySQL**: [Youtube Video](https://www.youtube.com/watch?v=wgRwITQHszU)
 - **Basic Commands**:
   - `SELECT` & `FROM`: [Youtube Video](https://www.youtube.com/watch?v=HYD8KjPB9F8)
+  - 💡 `SELECT` is used to filter/choose table columns of interest
   - `WHERE`: [Youtube Video](https://www.youtube.com/watch?v=MARn_mssG4A)
+  - 💡 `WHERE` is used to filter/choose rows of interest
 
 💡 **Tip:** You can start practicing what you just learned using the [online SQL server](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) by W3Schools.
 
