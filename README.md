@@ -48,6 +48,11 @@ In your second week, you'll learn how to summarize data for insights using aggre
 
 💡 **Tip:** When working with aggregations, start with smaller datasets to avoid performance issues and make debugging easier.
 
+💡 **Tip:** 
+
+![sqlJoins_7](https://github.com/user-attachments/assets/d81f0d90-6deb-4c6f-a111-b66b5d42cdd0)
+
+credits to [Atlassian.com](https://www.atlassian.com/data/sql/sql-join-types-explained-visually)
 
 ## Week 3: Databases & JOINs (Combining Data Sources)
 
