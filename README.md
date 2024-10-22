@@ -29,16 +29,22 @@ Your first week is about understanding what SQL is and learning how to retrieve 
   - [x] `SELECT` & `FROM`: [Youtube Video](https://www.youtube.com/watch?v=HYD8KjPB9F8)
   - 💡 `SELECT` is used to filter/choose table columns of interest
   - [x] `WHERE`: [Youtube Video](https://www.youtube.com/watch?v=MARn_mssG4A)
-  - 💡 `WHERE` is used to filter/choose rows of interest
+  - 💡 `WHERE` is used to filter/choose rows of interest using condition(s)
 
 💡 **Tip:** You can start practicing what you just learned using the [online SQL server](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) by W3Schools.
 
+💡 **Tip:** A typical SQL query is as follows
+```
+SELECT (insert column name)
+FROM (insert Table name)
+WHERE (insert condition)
+```
 ## Week 2: Aggregations & GROUP BY (Summarizing Data)
 
 In your second week, you'll learn how to summarize data for insights using aggregation functions. This is critical for creating reports and dashboards.
 
-- **Aggregations (COUNT, SUM, AVG, MAX, MIN)**: [Youtube Video](https://www.youtube.com/watch?v=jcoJuc5e3RE)
-- **Using GROUP BY (HAVING & WHERE)**: [Youtube Video](https://www.youtube.com/watch?v=nNrgRVIzeHg)
+- **Aggregations (_COUNT, SUM, AVG, MAX, MIN_)**: [Youtube Video](https://www.youtube.com/watch?v=jcoJuc5e3RE)
+- **Using GROUP BY (_HAVING_ & _WHERE_)**: [Youtube Video](https://www.youtube.com/watch?v=nNrgRVIzeHg)
 
 💡 **Tip:** When working with aggregations, start with smaller datasets to avoid performance issues and make debugging easier.
 
