@@ -23,12 +23,12 @@ Alright, let’s get started! 🚀
 
 Your first week is about understanding what SQL is and learning how to retrieve data from a database, which is essential for Data Science & Analytics.
 
-- **What is SQL?** [Youtube Video](https://www.youtube.com/watch?v=zsjvFFKOm3c)
-- **Install MySQL**: [Youtube Video](https://www.youtube.com/watch?v=wgRwITQHszU)
+- [x] **What is SQL?** [Youtube Video](https://www.youtube.com/watch?v=zsjvFFKOm3c)
+- [x] **Install MySQL**: [Youtube Video](https://www.youtube.com/watch?v=wgRwITQHszU)
 - **Basic Commands**:
-  - `SELECT` & `FROM`: [Youtube Video](https://www.youtube.com/watch?v=HYD8KjPB9F8)
+  - [x] `SELECT` & `FROM`: [Youtube Video](https://www.youtube.com/watch?v=HYD8KjPB9F8)
   - 💡 `SELECT` is used to filter/choose table columns of interest
-  - `WHERE`: [Youtube Video](https://www.youtube.com/watch?v=MARn_mssG4A)
+  - [x] `WHERE`: [Youtube Video](https://www.youtube.com/watch?v=MARn_mssG4A)
   - 💡 `WHERE` is used to filter/choose rows of interest
 
 💡 **Tip:** You can start practicing what you just learned using the [online SQL server](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all) by W3Schools.
