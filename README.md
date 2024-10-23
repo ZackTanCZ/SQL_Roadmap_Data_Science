@@ -92,6 +92,16 @@ Now that you’ve mastered the basics of combining data with `JOINs`, you can ta
 ✋ **Note:** This section is more **advanced**. If you're still getting comfortable with basic SQL, feel free to skip this for now and return later.
 
 - **What are Window Functions?** [Youtube Video](https://www.youtube.com/watch?v=xFeOVIIRyvQ)
+  - Windows are a subset of records
+  - Windows Function perform calculations based on data in different groups of row
+  - Windows Function is typically structured as follows: 
+    ```
+    windows_function(expression)
+    OVER(
+    [PARTITION BY partition_clause]
+    [ORDER BY order_clause]
+    )
+    ``` 
 - **Common Window Functions**:
   - `ROW_NUMBER()`, `RANK()` and `DENSE_RANK()`: [Youtube Video](https://www.youtube.com/watch?v=rIcB4zMYMas)
   - Window Functions Cheat sheet: [Article](https://www.datacamp.com/cheat-sheet/sql-window-functions-cheat-sheet)
