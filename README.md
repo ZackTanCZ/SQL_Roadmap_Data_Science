@@ -7,10 +7,18 @@ I created this roadmap to guide you through mastering SQL basics in just **6 wee
 
 Here is what the roadmap looks like:
 
+[Basic]
+
 - **[Week 1](#week-1-learn-the-basics-of-sql-data-retrieval):** Learn the SQL basics and how to retrieve data.
 - **[Week 2](#week-2-aggregations--group-by-summarizing-data):** Master aggregations and `GROUP BY` for data summarization.
 - **[Week 3](#week-3-databases--joins-combining-data-sources):** Dive into relational databases and `JOINs` to combine datasets.
+
+[Intermediate]
+
 - **[Week 4](#week-4-learn-window-functions-optional-advanced-topic):** Learn Window Functions for advanced data manipulation.
+
+[Advanced]
+
 - **[Week 5](#week-5-learn-to-use-ctes-and-sub-queries):** Advance your skills with CTEs and sub-queries for complex queries.
 - **[Weeks 6-7](#weeks-6-7-build-your-own-projects-hands-on-practice):** Build your own projects to apply everything you've learned.
 
@@ -101,7 +109,9 @@ Now that you’ve mastered the basics of combining data with `JOINs`, you can ta
     [PARTITION BY partition_clause]
     [ORDER BY order_clause]
     )
-    ``` 
+    ```
+  - `PARTITION BY` divides a table of records into **individual subsets** according to the partitional clause (determined by the column name), and applies the aggregate function across each subset.
+  - `ORDER BY` does ...
 - **Common Window Functions**:
   - `ROW_NUMBER()`, `RANK()` and `DENSE_RANK()`: [Youtube Video](https://www.youtube.com/watch?v=rIcB4zMYMas)
   - Window Functions Cheat sheet: [Article](https://www.datacamp.com/cheat-sheet/sql-window-functions-cheat-sheet)
