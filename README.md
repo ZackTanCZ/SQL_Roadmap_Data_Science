@@ -37,9 +37,9 @@ Your first week is about understanding what SQL is and learning how to retrieve 
 
 💡 **Tip:** A typical SQL query is as follows
 ```
-SELECT (insert column name)
-FROM (insert Table name)
-WHERE (insert condition)
+SELECT (column name)
+FROM (table name)
+WHERE (column name) LIKE (condition)
 ```
 ## Week 2: Aggregations & GROUP BY (Summarizing Data)
 
