@@ -73,6 +73,7 @@ Understanding relational databases and mastering `JOINs` to combine tables is ke
 - **Introduction to JOINs**:
     - [Youtube Video](https://www.youtube.com/watch?v=9URM1_2S0ho)
     - [Article](https://www.atlassian.com/data/sql/sql-join-types-explained-visually)
+    - `Inner Join` `Left Join` `Right Join` `Outer Join` are the most commonly used joins
 
 💡 **Tip:** Practice `JOINs` with different types of datasets to understand how they combine data. Try to visualize what the result will look like before running the query.
 
