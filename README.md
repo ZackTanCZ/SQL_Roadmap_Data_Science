@@ -73,7 +73,9 @@ Understanding relational databases and mastering `JOINs` to combine tables is ke
 - **Introduction to JOINs**:
     - [Youtube Video](https://www.youtube.com/watch?v=9URM1_2S0ho)
     - [Article](https://www.atlassian.com/data/sql/sql-join-types-explained-visually)
-    - `Inner Join` `Left Join` `Right Join` `Outer Join` are the most commonly used joins
+    - `Inner Join` `Left Join` are the most commonly used joins
+      - `Left Join` and `Right Join` are interchangable.
+      - Oddly enough mySQL workbench doesn't support `Right Join` and `Outer Join` 
 
 💡 **Tip:** Practice `JOINs` with different types of datasets to understand how they combine data. Try to visualize what the result will look like before running the query.
 
@@ -81,13 +83,13 @@ Understanding relational databases and mastering `JOINs` to combine tables is ke
 
 ![sqlJoins_7](https://github.com/user-attachments/assets/d81f0d90-6deb-4c6f-a111-b66b5d42cdd0)
 
-credits to [Atlassian.com](https://www.atlassian.com/data/sql/sql-join-types-explained-visually)
+Figure 1.2 - SQL Join visually explained credits to [Atlassian.com](https://www.atlassian.com/data/sql/sql-join-types-explained-visually)
 
 ## Week 4: Learn Window Functions (Optional Advanced Topic)
 
-Now that you’ve mastered the basics of combining data with `JOINs`, you can take things to the next level by learning **window functions**. These are useful for performing calculations like ranking, running totals, or moving averages across subsets of data.
+Now that you’ve mastered the basics of combining data with `JOINs`, you can take things to the next level by learning **window functions**. These are useful for **performing calculations** like ranking, running totals, or moving averages across subsets of data.
 
-✋ **Note:** This section is more advanced. If you're still getting comfortable with basic SQL, feel free to skip this for now and return later.
+✋ **Note:** This section is more **advanced**. If you're still getting comfortable with basic SQL, feel free to skip this for now and return later.
 
 - **What are Window Functions?** [Youtube Video](https://www.youtube.com/watch?v=xFeOVIIRyvQ)
 - **Common Window Functions**:
