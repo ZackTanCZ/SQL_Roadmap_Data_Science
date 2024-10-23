@@ -47,6 +47,7 @@ In your second week, you'll learn how to summarize data for insights using aggre
 
 - [x] **Aggregations (_COUNT, SUM, AVG, MAX, MIN_)**: [Youtube Video](https://www.youtube.com/watch?v=jcoJuc5e3RE)
 - [x] **Using GROUP BY (_HAVING_ & _WHERE_)**: [Youtube Video](https://www.youtube.com/watch?v=nNrgRVIzeHg)
+  - `WHERE` clause is used for non-aggregated columns
   - `GROUP BY` clause must match the `SELECT` clause
   - `ORDER BY` clause is used to sort the result
   - `HAVING` is used to filter aggregated columns
@@ -58,6 +59,7 @@ In your second week, you'll learn how to summarize data for insights using aggre
 ```
 SELECT (column name)
 FROM (table name)
+WHERE (condition)
 GROUP BY (column name)
 HAVING (condition)
 ORDER BY (column name) 
