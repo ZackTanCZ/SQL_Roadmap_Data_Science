@@ -45,10 +45,23 @@ WHERE (column name) LIKE (condition)
 
 In your second week, you'll learn how to summarize data for insights using aggregation functions. This is critical for creating reports and dashboards.
 
-- **Aggregations (_COUNT, SUM, AVG, MAX, MIN_)**: [Youtube Video](https://www.youtube.com/watch?v=jcoJuc5e3RE)
-- **Using GROUP BY (_HAVING_ & _WHERE_)**: [Youtube Video](https://www.youtube.com/watch?v=nNrgRVIzeHg)
+- [x] **Aggregations (_COUNT, SUM, AVG, MAX, MIN_)**: [Youtube Video](https://www.youtube.com/watch?v=jcoJuc5e3RE)
+- [x] **Using GROUP BY (_HAVING_ & _WHERE_)**: [Youtube Video](https://www.youtube.com/watch?v=nNrgRVIzeHg)
+  - `GROUP BY` clause must match the `SELECT` clause
+  - `ORDER BY` clause is used to sort the result
+  - `HAVING` is used to filter aggregated columns
 
 💡 **Tip:** When working with aggregations, start with smaller datasets to avoid performance issues and make debugging easier.
+
+
+💡 **Tip:** A typical SQL query is as follows
+```
+SELECT (column name)
+FROM (table name)
+GROUP BY (column name)
+HAVING (condition)
+ORDER BY (column name) 
+```
 
 ## Week 3: Databases & JOINs (Combining Data Sources)
 
