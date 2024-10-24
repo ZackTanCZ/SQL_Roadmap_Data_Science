@@ -7,17 +7,17 @@ I created this roadmap to guide you through mastering SQL basics in just **6 wee
 
 Here is what the roadmap looks like:
 
-[Basic]
+[Basic Level]
 
 - **[Week 1](#week-1-learn-the-basics-of-sql-data-retrieval):** Learn the SQL basics and how to retrieve data.
 - **[Week 2](#week-2-aggregations--group-by-summarizing-data):** Master aggregations and `GROUP BY` for data summarization.
 - **[Week 3](#week-3-databases--joins-combining-data-sources):** Dive into relational databases and `JOINs` to combine datasets.
 
-[Intermediate]
+[Intermediate Level]
 
 - **[Week 4](#week-4-learn-window-functions-optional-advanced-topic):** Learn Window Functions for advanced data manipulation.
 
-[Advanced]
+[Advanced Level]
 
 - **[Week 5](#week-5-learn-to-use-ctes-and-sub-queries):** Advance your skills with CTEs and sub-queries for complex queries.
 - **[Weeks 6-7](#weeks-6-7-build-your-own-projects-hands-on-practice):** Build your own projects to apply everything you've learned.
@@ -89,7 +89,7 @@ Understanding relational databases and mastering `JOINs` to combine tables is ke
 
 💡 **Tip:** 
 
-![sqlJoins_7](https://github.com/user-attachments/assets/d81f0d90-6deb-4c6f-a111-b66b5d42cdd0)
+<img src="https://github.com/user-attachments/assets/d81f0d90-6deb-4c6f-a111-b66b5d42cdd0" width=50% height=50%>
 
 Figure 1.2 - SQL Join visually explained credits to [Atlassian.com](https://www.atlassian.com/data/sql/sql-join-types-explained-visually)
 
@@ -111,9 +111,12 @@ Now that you’ve mastered the basics of combining data with `JOINs`, you can ta
     )
     ```
   - `PARTITION BY` divides a table of records into **individual subsets** according to the partitional clause (determined by the column name), and applies the aggregate function across each subset.
-  - `ORDER BY` does ...
+  - `ORDER BY` (enclosed within OVER()) sorts the records found within each subset/partition by the order_clause (determined by the column name(s)) 
 - **Common Window Functions**:
   - `ROW_NUMBER()`, `RANK()` and `DENSE_RANK()`: [Youtube Video](https://www.youtube.com/watch?v=rIcB4zMYMas)
+    - `ROW_NUMER()` assigns a sequential number to each record within the partition/window
+    - `RANK()` behaves similarly to `DENSE_RANK()`, assigning a sequential number to each record within the partition/window. However, it skips the rank of tied rank.  
+    - `DENSE_RANK()` behaves similarly to `RANK()`, assigns a sequential number to each record within the partition/window. However, it **does not** skips the rank of tied rank. 
   - Window Functions Cheat sheet: [Article](https://www.datacamp.com/cheat-sheet/sql-window-functions-cheat-sheet)
 
 💡 **Tip:** Check out how [5 real examples](https://tobeadatascientist.substack.com/p/5-powerful-ways-i-use-sql-window-functions) of how I use window functions as a Data Scientist in tech
