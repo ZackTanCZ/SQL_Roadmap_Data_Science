@@ -115,8 +115,8 @@ Now that you’ve mastered the basics of combining data with `JOINs`, you can ta
 - [x] **Common Window Functions**:
   - `ROW_NUMBER()`, `RANK()` and `DENSE_RANK()`: [Youtube Video](https://www.youtube.com/watch?v=rIcB4zMYMas)
     - `ROW_NUMER()` assigns a sequential number to each record within the partition/window
-    - `RANK()` behaves similarly to `DENSE_RANK()`, assigning a sequential number to each record within the partition/window. However, it skips the rank of tied rank.  
-    - `DENSE_RANK()` behaves similarly to `RANK()`, assigns a sequential number to each record within the partition/window. However, it **does not** skips the rank of tied rank. 
+    - `RANK()` behaves similarly to `DENSE_RANK()`, assigning a sequential number to each record within the partition/window. However, it skips the rank of tied rank. e.g. 5, 5, 7, 8, ...  
+    - `DENSE_RANK()` behaves similarly to `RANK()`, assigns a sequential number to each record within the partition/window. However, it **does not** skips the rank of tied rank. e.g. 5, 5, 6, 7, ...
   - Window Functions Cheat sheet: [Article](https://www.datacamp.com/cheat-sheet/sql-window-functions-cheat-sheet)
 
 💡 **Tip:** Check out how [5 real examples](https://tobeadatascientist.substack.com/p/5-powerful-ways-i-use-sql-window-functions) of how I use window functions as a Data Scientist in tech
