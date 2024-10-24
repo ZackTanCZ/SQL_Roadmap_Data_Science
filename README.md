@@ -77,8 +77,8 @@ ORDER BY (column name)
 
 Understanding relational databases and mastering `JOINs` to combine tables is key for more complex analysis in Data Science & Analytics.
 
-- **What is a relational database?**: [Youtube Video](https://www.youtube.com/watch?v=OqjJjpjDRLc)
-- **Introduction to JOINs**:
+- [x] **What is a relational database?**: [Youtube Video](https://www.youtube.com/watch?v=OqjJjpjDRLc)
+- [x] **Introduction to JOINs**:
     - [Youtube Video](https://www.youtube.com/watch?v=9URM1_2S0ho)
     - [Article](https://www.atlassian.com/data/sql/sql-join-types-explained-visually)
     - `Inner Join` `Left Join` are the most commonly used joins
@@ -99,7 +99,7 @@ Now that you’ve mastered the basics of combining data with `JOINs`, you can ta
 
 ✋ **Note:** This section is more **advanced**. If you're still getting comfortable with basic SQL, feel free to skip this for now and return later.
 
-- **What are Window Functions?** [Youtube Video](https://www.youtube.com/watch?v=xFeOVIIRyvQ)
+- [x] **What are Window Functions?** [Youtube Video](https://www.youtube.com/watch?v=xFeOVIIRyvQ)
   - Windows are a subset of records
   - Windows Function perform calculations based on data in different groups of row
   - Windows Function is typically structured as follows: 
@@ -112,7 +112,7 @@ Now that you’ve mastered the basics of combining data with `JOINs`, you can ta
     ```
   - `PARTITION BY` divides a table of records into **individual subsets** according to the partitional clause (determined by the column name), and applies the aggregate function across each subset.
   - `ORDER BY` (enclosed within OVER()) sorts the records found within each subset/partition by the order_clause (determined by the column name(s)) 
-- **Common Window Functions**:
+- [x] **Common Window Functions**:
   - `ROW_NUMBER()`, `RANK()` and `DENSE_RANK()`: [Youtube Video](https://www.youtube.com/watch?v=rIcB4zMYMas)
     - `ROW_NUMER()` assigns a sequential number to each record within the partition/window
     - `RANK()` behaves similarly to `DENSE_RANK()`, assigning a sequential number to each record within the partition/window. However, it skips the rank of tied rank.  
