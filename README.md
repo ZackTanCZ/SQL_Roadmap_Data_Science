@@ -55,6 +55,7 @@ In your second week, you'll learn how to summarize data for insights using aggre
 
 - [x] **Aggregations (_COUNT, SUM, AVG, MAX, MIN_)**: [Youtube Video](https://www.youtube.com/watch?v=jcoJuc5e3RE)
 - [x] **Using GROUP BY (_HAVING_ & _WHERE_)**: [Youtube Video](https://www.youtube.com/watch?v=nNrgRVIzeHg)
+  - `GROUP BY` is required when you have an **aggregated column** - a aggregated function applied to a column
   - `WHERE` clause is used for non-aggregated columns
   - `GROUP BY` clause must match the `SELECT` clause
   - `ORDER BY` clause is used to sort the result
@@ -125,8 +126,13 @@ Now that you’ve mastered the basics of combining data with `JOINs`, you can ta
 
 In week 5, you’re now ready for multi-step queries. You’re really advancing in your SQL skills at this point, and you should be proud of yourself!
 
-- **Learn about CTEs**: [Youtube Video](https://www.youtube.com/watch?v=_SanZ41uTlw)
-- **Learn about sub-queries**: [Youtube Video](https://www.youtube.com/watch?v=GpC0XyiJPEo)
+- [] **Learn about sub-queries**: [Youtube Video](https://www.youtube.com/watch?v=GpC0XyiJPEo)  
+  - A sub-queries is a **nested sql query** found within a outer sql query - usually identified by a **nested `Select` clause.**
+  - A sub-queries returns **table of records** and the outer sql query queries this table of records.  
+- [] **Learn about Common Table Expressions (CTEs)**: [Youtube Video](https://www.youtube.com/watch?v=_SanZ41uTlw)/[SQL WITH Clause | CTEs vs Subqueries vs Temp Tables](https://www.youtube.com/watch?v=LJC8277LONg)
+  - Denoted by the `With` clause with an alias
+  - Allows for cleaner sql queries by containing a sub-query within a CTE and using the CTE in the outer sql query
+  - 
 
 💡 **Tip:** When working with CTEs and sub-queries, break your queries down into smaller parts and test them individually before combining them.
 
