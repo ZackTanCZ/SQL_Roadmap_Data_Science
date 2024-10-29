@@ -149,11 +149,20 @@ In week 5, you’re now ready for multi-step queries. You’re really advancing 
 
 ## Additional Materials: Indexing and Recursive Queries
 
-- [] Indexing (in the context of a database)
-- [] Recursive Queries
-- [] CASE Clause
+- [ ] Indexing (in the context of a database)
+- [ ] Recursive Queries
+- [ ] [CASE Statement](https://mode.com/sql-tutorial/sql-case)
+  - The **if/else** equivalent in programming syntax
+  - ```
+    SELECT (column names),
+    CASE WHEN (condition) THEN (result when **true**)
+    WHEN (condition) THEN (result when **true**) 
+    ELSE (result when **false**) AS (column name)
+    FROM (table name)
+    ```
+  - second `when` only used when there's an alternate condition
 
-
+      
 ## Weeks 6-7: Build Your Own Projects (Hands-on Practice)
 
 Now that you have the foundational skills, it's time to apply them in real-world scenarios by working on projects.
