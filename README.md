@@ -151,6 +151,7 @@ In week 5, you’re now ready for multi-step queries. You’re really advancing 
 
 - [] Indexing (in the context of a database)
 - [] Recursive Queries
+- [] CASE Clause
 
 
 ## Weeks 6-7: Build Your Own Projects (Hands-on Practice)
