@@ -147,6 +147,12 @@ In week 5, you’re now ready for multi-step queries. You’re really advancing 
 
 💡 **Tip:** When working with CTEs and sub-queries, break your queries down into smaller parts and test them individually before combining them.
 
+## Additional Materials: Indexing and Recursive Queries
+
+- [] Indexing (in the context of a database)
+- [] Recursive Queries
+
+
 ## Weeks 6-7: Build Your Own Projects (Hands-on Practice)
 
 Now that you have the foundational skills, it's time to apply them in real-world scenarios by working on projects.
